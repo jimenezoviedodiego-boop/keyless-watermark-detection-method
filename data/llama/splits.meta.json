@@ -1,0 +1,15 @@
+{
+ "seed": 20240917,
+ "test_frac": 0.2,
+ "folds": 5,
+ "repeats": 3,
+ "group": "prompt_id",
+ "stratify": "quartile of prompt mean answer length (tokens, both twins)",
+ "pairs": 3000,
+ "prompts": 1000,
+ "split_pairs": {
+  "dev": 2400,
+  "test": 600
+ },
+ "valid_long_pairs": 2817
+}

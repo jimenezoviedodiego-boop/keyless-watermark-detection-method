@@ -1,0 +1,61 @@
+{
+  "prompt_dataset": "hassanjbara/LONG",
+  "prompt_split": "train",
+  "prompt_column": "query",
+  "prompt_revision": "main",
+  "prompt_seed": 1234,
+  "model": "/home/scur0436/llama31_synthid/hf_models/Llama-3.1-8B-Instruct",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "source_checkpoint": null,
+  "n_prompts": 1000,
+  "replicates": 3,
+  "batch": 32,
+  "cache_implementation": "static",
+  "seed": 1234,
+  "max_new_tokens": 2048,
+  "min_new_tokens": 768,
+  "min_words": 600,
+  "temperature": 1.0,
+  "top_k": 50,
+  "ngram_len": 5,
+  "n_keys": 30,
+  "system_prompt": "Write a substantial, self-contained article for a general educated audience. Use natural prose and paragraphs, not code or bullet lists. Aim for 800–1200 words. Develop the topic in depth with explanations and examples. Do not pad the article with repetition.",
+  "prompt_bank_sha256": "99060a0c4630ae452780130a029d2c482937f5df29583e07af02d80ce4fd9410",
+  "prompt_source": {
+    "request": {
+      "dataset": "hassanjbara/LONG",
+      "split": "train",
+      "column": "query",
+      "requested_revision": "main",
+      "selection_seed": 1234,
+      "filter_version": "prose-v1"
+    },
+    "resolved_revision": "6b25dd565d49bb67cf5f91a2cd9acc4cc54b6053",
+    "source_rows": 25973,
+    "eligible_prompts": 5173,
+    "bank_sha256": "99060a0c4630ae452780130a029d2c482937f5df29583e07af02d80ce4fd9410",
+    "dataset_card_url": "https://huggingface.co/datasets/hassanjbara/LONG",
+    "license_metadata": "mit"
+  },
+  "versions": {
+    "torch": "2.5.1+cu124",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.36.2"
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_capability": [
+    8,
+    0
+  ],
+  "python": "3.11.3",
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "top_p": 1.0,
+  "sampling_table_size": 65536,
+  "sampling_table_seed": 0,
+  "context_history_size": 1024,
+  "prompt_format": "chat_template",
+  "pad_to_multiple_of": 128,
+  "seed_policy": "Reset same seed before OFF and ON for each immutable batch"
+}

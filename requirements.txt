@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.2
+pyarrow>=17
+scipy>=1.13
+scikit-learn>=1.5
+lightgbm>=4.5
+matplotlib>=3.9
+transformers>=4.44   # only for condz/gemma.py (Gemma tokenizer)

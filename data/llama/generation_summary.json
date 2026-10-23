@@ -1,0 +1,16 @@
+{
+  "pairs": 3000,
+  "valid_long_pairs": 2817,
+  "quality_counts": {
+    "watermarked": {
+      "too_short": 104,
+      "max_tokens_reached": 9
+    },
+    "unwatermarked": {
+      "too_short": 112,
+      "max_tokens_reached": 3
+    }
+  },
+  "new_pairs": 3000,
+  "elapsed_seconds": 28310.557327316026
+}
